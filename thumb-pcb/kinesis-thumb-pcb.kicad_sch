@@ -3202,7 +3202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 240.03 129.5462 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 96.52 66.0462 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 96.52 35.5662 0)
 			(effects
 				(font
@@ -3830,7 +3830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 240.03 96.5262 0)
 			(effects
 				(font
@@ -4590,7 +4590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 224.79 35.5662 0)
 			(effects
 				(font
@@ -4924,7 +4924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 111.76 96.5262 0)
 			(effects
 				(font
@@ -5616,7 +5616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 111.76 35.5662 0)
 			(effects
 				(font
@@ -6041,7 +6041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 224.79 129.5462 0)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 224.79 66.0462 0)
 			(effects
 				(font
@@ -6787,7 +6787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 111.76 129.5462 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 96.52 96.5262 0)
 			(effects
 				(font
@@ -7149,7 +7149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1 µF"
 			(at 240.03 66.0462 0)
 			(effects
 				(font
