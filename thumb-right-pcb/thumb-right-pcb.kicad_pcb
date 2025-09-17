@@ -2980,7 +2980,7 @@
 		(descr "Add-on for regular MX-footprints with 6028 reverse mount LED")
 		(tags "cherry MX 6028 rearmount rear mount led rgb backlight")
 		(property "Reference" "LED96"
-			(at 0 -2.6 0)
+			(at 0 -2.54 0)
 			(layer "B.SilkS")
 			(uuid "15e4410e-b3af-4e5c-a172-da8a9a0a2918")
 			(effects
@@ -3990,7 +3990,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C66"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "B.SilkS")
 			(uuid "8607d48b-ef49-49f1-8c7e-4c57ec9d1d78")
 			(effects
@@ -4194,7 +4194,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D86"
-			(at -0.127 1.905 0)
+			(at -0.127 1.845 0)
 			(layer "B.SilkS")
 			(uuid "0f62298c-56df-4613-8824-67d29c82dffb")
 			(effects
@@ -5030,7 +5030,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C75"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "B.SilkS")
 			(uuid "555bd3f7-eb68-421e-a29a-123f521dbe58")
 			(effects
@@ -5739,7 +5739,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C85"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "B.SilkS")
 			(uuid "997c2352-7784-4f7e-bd07-ae40d1fcb672")
 			(effects
@@ -5943,7 +5943,7 @@
 		(descr "Add-on for regular MX-footprints with 6028 reverse mount LED")
 		(tags "cherry MX 6028 rearmount rear mount led rgb backlight")
 		(property "Reference" "LED86"
-			(at 0 -2.6 0)
+			(at 0 -2.54 0)
 			(layer "B.SilkS")
 			(uuid "128272e6-32d0-4384-9893-031225feceb3")
 			(effects
@@ -6448,7 +6448,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C65"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "B.SilkS")
 			(uuid "6dafab43-3adf-48d2-863a-342424246af0")
 			(effects
@@ -7157,7 +7157,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D66"
-			(at -0.127 1.905 0)
+			(at -0.127 1.845 0)
 			(layer "B.SilkS")
 			(uuid "f24f4b03-a4e4-4025-942a-8a185c07cf67")
 			(effects
@@ -8610,7 +8610,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C86"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "B.SilkS")
 			(uuid "81b453e2-19b3-4f28-b0f7-7da38a070f73")
 			(effects
