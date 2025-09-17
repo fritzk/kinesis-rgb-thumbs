@@ -1,1 +1,8 @@
 *.zip
+# KiCad Files to Ignore
+*.kicad_prl
+*.bak
+*-cache.lib
+*.sch-bak
+*.pcb-bak
+*.dcm
