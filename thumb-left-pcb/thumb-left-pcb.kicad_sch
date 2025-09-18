@@ -2123,7 +2123,7 @@
 		)
 		(uuid "28103460-a69b-4d75-bcdd-ef6a3a51ff54")
 	)
-	(label "COL_R5"
+	(label "COL_L5"
 		(at 114.3 25.4 0)
 		(effects
 			(font
@@ -2153,7 +2153,7 @@
 		)
 		(uuid "467f1aaf-d278-400b-bbfb-145363f488fb")
 	)
-	(label "COL_6"
+	(label "COL_L6"
 		(at 95.25 165.1 180)
 		(effects
 			(font
@@ -2223,7 +2223,7 @@
 		)
 		(uuid "8e7c0404-e2d3-4b9f-a648-a3c4025ada3b")
 	)
-	(label "COL_5"
+	(label "COL_L5"
 		(at 95.25 167.64 180)
 		(effects
 			(font
@@ -2253,7 +2253,7 @@
 		)
 		(uuid "c3aa1fba-168a-4082-926c-259e1e4aa052")
 	)
-	(label "COL_R6"
+	(label "COL_L6"
 		(at 76.2 25.4 0)
 		(effects
 			(font
