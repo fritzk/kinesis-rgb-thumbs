@@ -1,0 +1,25 @@
+# KiCad Project Files to Ignore
+
+# Temporary and backup files
+# These are files created by KiCad for temporary use or as backups.
+# They are not needed for the project's integrity and can be re-generated.
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.tmp
+*~
+*-backups
+_autosave-*
+~*.lck
+
+# Cache files
+# These files are caches that KiCad uses for faster loading and can be
+# regenerated at any time. They are unique to the user and their local setup.
+fp-info-cache
+-cache.lib
+*.kicad_sym-cache
+*.dcm
+
+# KiCad's project-local settings
+# This file stores local user preferences and isn't necessary for project sharing.
+*.kicad_prl
