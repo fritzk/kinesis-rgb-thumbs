@@ -1880,6 +1880,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(hide yes)
@@ -3597,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 87.63) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7358d30b-1d42-4ed0-86d5-ab4a3870caf7")
+	)
+	(wire
+		(pts
 			(xy 243.84 107.95) (xy 246.38 107.95)
 		)
 		(stroke
@@ -4084,6 +4201,16 @@
 			(type default)
 		)
 		(uuid "f67c1ef3-048a-40e7-a0f9-cd4ffd3d3630")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e823c2-7a02-4aff-b6f2-e453b210247b")
 	)
 	(wire
 		(pts
@@ -5126,6 +5253,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "261e7774-9f95-4d32-8ff3-370c3bfbbb38")
+		(property "Reference" "H1"
+			(at 92.0242 87.884 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "mounting pad"
+			(at 83.82 88.9 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20ef2f90-63f8-4feb-bec9-fa49db455a6b")
+		)
+		(instances
+			(project "rgbmain"
+				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 238.76 72.39 0)
 		(mirror y)
@@ -5154,7 +5347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0006_1x06_P3.96mm_Horizontal"
+		(property "Footprint" "rgbmain:Molex_KK-254_1x06_P2.54mm_Horizontal"
 			(at 238.76 72.39 0)
 			(effects
 				(font
@@ -5236,7 +5429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0010_1x10_P3.96mm_Horizontal"
+		(property "Footprint" "rgbmain:Molex_KK-254_1x10_P2.54mm_Horizontal"
 			(at 161.29 144.78 0)
 			(effects
 				(font
@@ -5400,7 +5593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0006_1x06_P3.96mm_Horizontal"
+		(property "Footprint" "rgbmain:Molex_KK-254_1x06_P2.54mm_Horizontal"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -5481,7 +5674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0010_1x10_P3.96mm_Horizontal"
+		(property "Footprint" "rgbmain:Molex_KK-254_1x10_P2.54mm_Horizontal"
 			(at 127 144.78 0)
 			(effects
 				(font
@@ -6259,7 +6452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0009_1x09_P3.96mm_Horizontal"
+		(property "Footprint" "rgbmain:Molex_KK-254_1x09_P2.54mm_Horizontal"
 			(at 238.76 105.41 0)
 			(effects
 				(font
@@ -6350,7 +6543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0009_1x09_P3.96mm_Horizontal"
+		(property "Footprint" "rgbmain:Molex_KK-254_1x09_P2.54mm_Horizontal"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -6588,6 +6781,72 @@
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edb9e40b-1c5b-42cc-9eb5-ece8fac0d749")
+		(property "Reference" "#PWR08"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bac64b3-5a7a-4943-bac6-6598701fd76b")
+		)
+		(instances
+			(project ""
+				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
