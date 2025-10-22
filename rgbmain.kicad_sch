@@ -3557,6 +3557,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 26.67) (xy 118.11 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d966a80-c49d-44fa-9b80-d56e073edac4")
+	)
+	(wire
+		(pts
 			(xy 243.84 72.39) (xy 246.38 72.39)
 		)
 		(stroke
@@ -3897,16 +3907,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 26.67) (xy 118.11 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf681705-cbd8-4c04-a1a4-b5836c606bbb")
-	)
-	(wire
-		(pts
 			(xy 119.38 147.32) (xy 121.92 147.32)
 		)
 		(stroke
@@ -4135,6 +4135,16 @@
 		)
 		(uuid "09f153c1-e939-4641-bf48-a5d28a9ff27c")
 	)
+	(label "SDA0"
+		(at 113.03 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c9cd892-b586-4666-a131-9e2818d63ce6")
+	)
 	(label "COL_4"
 		(at 30.48 74.93 180)
 		(effects
@@ -4315,16 +4325,6 @@
 		)
 		(uuid "3796db95-ed7e-4d53-a40d-09efb7138315")
 	)
-	(label "SLC0"
-		(at 113.03 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37c77299-bbaf-4a3e-bfd4-8b1fe85f779a")
-	)
 	(label "ROW_6"
 		(at 162.56 77.47 0)
 		(effects
@@ -4334,16 +4334,6 @@
 			(justify left bottom)
 		)
 		(uuid "37d708d8-4c82-4a6e-8481-fc91a5812d04")
-	)
-	(label "SDA0"
-		(at 113.03 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3aab7f0b-6aba-46e8-b90d-d185d96c8856")
 	)
 	(label "COL_9"
 		(at 246.38 72.39 0)
@@ -4384,6 +4374,16 @@
 			(justify right bottom)
 		)
 		(uuid "41be777a-3c87-4db4-adfb-017334541566")
+	)
+	(label "SLC0"
+		(at 113.03 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a331a25-2ce2-4eee-95e3-db2a8ca98b02")
 	)
 	(label "DOUT_KEY_3V3"
 		(at 162.56 64.77 0)
@@ -4956,6 +4956,73 @@
 		(uuid "ff7575a1-9f83-4401-a463-c615f43f6743")
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 113.03 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087e6067-5147-4e06-82bb-04ed3eb2d784")
+		(property "Reference" "#PWR07"
+			(at 116.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.22 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ceed552-a14b-462d-b77c-35b2a4b6fcaa")
+		)
+		(instances
+			(project ""
+				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x13")
 		(at 38.1 40.64 0)
 		(unit 1)
@@ -4983,7 +5050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rgbmain:Molex_0039532135"
 			(at 38.1 40.64 0)
 			(effects
 				(font
@@ -5087,7 +5154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0006_1x06_P3.96mm_Horizontal"
 			(at 238.76 72.39 0)
 			(effects
 				(font
@@ -5169,7 +5236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0010_1x10_P3.96mm_Horizontal"
 			(at 161.29 144.78 0)
 			(effects
 				(font
@@ -5263,7 +5330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.452 30.48 90)
 			(effects
 				(font
@@ -5333,7 +5400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0006_1x06_P3.96mm_Horizontal"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -5414,7 +5481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0010_1x10_P3.96mm_Horizontal"
 			(at 127 144.78 0)
 			(effects
 				(font
@@ -5481,6 +5548,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd1d5e7-e4c4-44c3-ac2a-957ce9165ef3")
+		(property "Reference" "#PWR06"
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb672a43-0db6-47a7-8522-6aed971285b5")
+		)
+		(instances
+			(project ""
+				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 201.93 30.48 0)
 		(unit 1)
@@ -5508,7 +5641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 200.152 30.48 90)
 			(effects
 				(font
@@ -5750,73 +5883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 113.03 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e46696e-eb38-424b-add2-1cd4c671e897")
-		(property "Reference" "#PWR07"
-			(at 116.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 109.22 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc2d0870-ff87-4563-b4de-4e4dfdc99526")
-		)
-		(instances
-			(project ""
-				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 129.54 104.14 0)
 		(unit 1)
@@ -5844,7 +5910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 129.54 104.14 0)
 			(effects
 				(font
@@ -6042,7 +6108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rgbmain:ElitePi"
 			(at 144.78 62.23 0)
 			(effects
 				(font
@@ -6193,7 +6259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0009_1x09_P3.96mm_Horizontal"
 			(at 238.76 105.41 0)
 			(effects
 				(font
@@ -6284,7 +6350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0009_1x09_P3.96mm_Horizontal"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -6375,7 +6441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -6452,7 +6518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rgbmain:Molex_0039532135"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -6522,72 +6588,6 @@
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef911408-7721-4772-869b-5b52b46aac68")
-		(property "Reference" "#PWR06"
-			(at 113.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e59bb968-5467-4c51-b001-8fefd9e61b6f")
-		)
-		(instances
-			(project ""
-				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
