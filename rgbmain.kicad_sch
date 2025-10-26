@@ -4134,6 +4134,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 68.58) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83e43e5-316e-49de-8e16-a641925f958e")
+	)
+	(wire
+		(pts
 			(xy 113.03 31.75) (xy 118.11 31.75)
 		)
 		(stroke
@@ -4141,6 +4151,16 @@
 			(type default)
 		)
 		(uuid "b98c71e2-d52d-4cd6-86eb-0dae388f21e0")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafb1ab8-7243-4500-a997-5556bd8770b3")
 	)
 	(wire
 		(pts
@@ -4792,7 +4812,7 @@
 		)
 		(uuid "41be777a-3c87-4db4-adfb-017334541566")
 	)
-	(label "SLC0"
+	(label "SCL0"
 		(at 113.03 34.29 180)
 		(effects
 			(font
@@ -5332,6 +5352,16 @@
 		)
 		(uuid "b416cedf-40b3-4e3c-b9f5-ed9e16f5ddbf")
 	)
+	(label "VDD"
+		(at 82.55 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7a84391-8e16-417a-924e-ff58e8f780d5")
+	)
 	(label "COL_7"
 		(at 247.65 30.48 0)
 		(effects
@@ -5411,6 +5441,16 @@
 			(justify left bottom)
 		)
 		(uuid "d2ea14ec-667a-426a-a083-b9dcbb70d3fa")
+	)
+	(label "VSS"
+		(at 82.55 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d475d44b-e499-48e6-ac5a-d465d7060510")
 	)
 	(label "ROW_4"
 		(at 30.48 113.03 180)
@@ -5639,7 +5679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "205bd377-c50f-4a27-a7d1-62d461a1d23f")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 38.1 19.05 0)
 			(effects
 				(font
@@ -5724,7 +5764,7 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5807,22 +5847,20 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354a5421-0189-4e2b-aadc-e6c964d73ebb")
-		(property "Reference" "J6"
-			(at 236.22 72.3899 0)
+		(property "Reference" "J3"
+			(at 238.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 236.22 74.9299 0)
+			(at 238.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical"
@@ -5873,7 +5911,7 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5889,7 +5927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f61d993-1df3-40b3-a2f5-46db72ca03d3")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 152.146 162.814 0)
 			(effects
 				(font
@@ -5967,7 +6005,7 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6053,7 +6091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "549cf820-3ace-48d4-b21b-08329cecf411")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 40.64 74.9301 0)
 			(effects
 				(font
@@ -6119,7 +6157,7 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6134,7 +6172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a7354b7-bdd6-4163-8f04-345fe8116bc0")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 124.968 160.02 0)
 			(effects
 				(font
@@ -6212,7 +6250,7 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6912,22 +6950,20 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d276a9bf-1db9-4225-9ad1-31c52ef30998")
-		(property "Reference" "J4"
-			(at 236.22 104.1399 0)
+		(property "Reference" "J5"
+			(at 238.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 236.22 106.6799 0)
+			(at 238.76 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-09A_1x09_P2.54mm_Vertical"
@@ -6987,7 +7023,7 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7003,7 +7039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbfde660-3fd4-4ea9-891b-b1b984f0ea4f")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -7076,7 +7112,73 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J3")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 78.74 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0daae8f-7931-499f-b0eb-18560b3067bc")
+		(property "Reference" "#PWR010"
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3c75179-5a99-4229-a7d0-b83d2439158e")
+		)
+		(instances
+			(project ""
+				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7169,22 +7271,20 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea9068eb-e291-4b7e-bb1b-5ba1be81d54c")
-		(property "Reference" "J8"
-			(at 236.22 39.3699 0)
+		(property "Reference" "J1"
+			(at 238.76 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x13"
-			(at 236.22 41.9099 0)
+			(at 238.76 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "rgbmain:Molex_0039532135"
@@ -7256,7 +7356,7 @@
 		(instances
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
-					(reference "J8")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7397,6 +7497,72 @@
 			(project ""
 				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45ad0ef-3eb9-4a91-92c0-4bcc19b86c6b")
+		(property "Reference" "#PWR09"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "798a9119-551e-452b-9c65-57c4858e9bee")
+		)
+		(instances
+			(project ""
+				(path "/24ca604d-a7a4-46c7-a288-45b7cfc45cc9"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
