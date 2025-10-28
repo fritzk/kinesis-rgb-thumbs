@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rgbmain")(type "KiCad")(uri "${KIPRJMOD}/rgbmain.kicad_sym")(options "")(descr ""))
+)
